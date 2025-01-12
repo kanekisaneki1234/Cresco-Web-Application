@@ -1,0 +1,27 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optional: make it take the full viewport height */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%; /* Optional: adjust the width to fit the screen */
+    max-height: 70vh; /* Limit the table height to 70% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: block; /* Make the table scrollable */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    position: sticky; /* Keep the header at the top */
+    top: 0;
+    background-color: #3b62ae; /* Optional: header background color */
+    z-index: 1; /* Ensure the header stays above the table rows */
+  }  

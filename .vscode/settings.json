@@ -1,0 +1,12 @@
+{
+    "dotnet.defaultSolution": "WebApplication1.sln",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./WebApplication1",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}

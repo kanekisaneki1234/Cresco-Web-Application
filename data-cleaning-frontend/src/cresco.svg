@@ -1,0 +1,55 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="300"
+  height="100"
+  viewBox="0 0 300 100"
+>
+  <!-- Group all elements together -->
+  <g>
+    <!-- Text for "Cresco" -->
+    <text
+      x="40%"
+      y="50%"
+      font-family="Arial, sans-serif"
+      font-size="48"
+      fill="#FF7043"
+      font-weight="bold"
+      text-anchor="middle"
+      alignment-baseline="central"
+    >
+      Cresco
+    </text>
+
+    <!-- Custom styling element resembling "< / >" -->
+    <g transform="translate(230, 55)">
+      <!-- Draw smaller "<" symbol -->
+      <path
+        d="M 0 -12 L -14 0 L 0 12"
+        fill="transparent"
+        stroke="#ffffff"
+        stroke-width="3"
+      />
+      
+      <!-- Draw forward slash "/" -->
+      <text
+        x="10"
+        y="1"
+        font-family="Arial, sans-serif"
+        font-size="36"
+        fill="#e76f51"
+        text-anchor="middle"
+        alignment-baseline="central"
+      >
+        /
+      </text>
+
+      <!-- Draw smaller ">" symbol (facing opposite direction) -->
+      <path
+        d="M 20 -12 L 35 0 L 20 12"
+        fill="transparent"
+        stroke="#ffffff"
+        stroke-width="3"
+      />
+    </g>
+  </g>
+</svg>

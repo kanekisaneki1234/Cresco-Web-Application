@@ -9,9 +9,11 @@
 
 # HOW TO RUN THE PROJECT
 
-## Firstly, open a terminal and navigate to the **`WebApplication1`** directory. There, run the following command:
+## Firstly, clone this repository in your desired directory. Then open a terminal and navigate to the **`WebApplication1`** directory. There, run the following command:
 
 > **`pip install -r requirements.txt`**
+
+*Note: It is usually better to set up a virtual environment first and activate it before installing dependencies using pip.*
 
 ## For the backend:
 
